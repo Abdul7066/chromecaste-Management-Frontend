@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const VITE_API_BASE_URL = "http://localhost:5000";
+const VITE_API_BASE_URL = "http://chromecaste-Management.onrender.com/api";
 const api = {
   login: async (credentials) => {
     const response = await axios.post(
